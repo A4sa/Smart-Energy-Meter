@@ -75,9 +75,17 @@ Apart from the circuit part, the AC wires where the current and voltage needs to
 
 ## PCB Board for this Project 
 If you don’t want to assemble the circuit on breadboard and you want PCB for the project, then here is the PCB for you. The PCB Board for the IoT Energy Meter is designed using **EasyEDA** online Circuit Schematics & PCB designing tool.
-[PCB Gerber File]()
+[PCB Gerber File](https://github.com/A4sa/ESP-32/tree/main/IoT%20based%20Smart%20Electricity%20Meter/PCB%20Board)
 
-You can use this Gerber file to order high quality PCB for this project. To do that visit the ALLPCB official website by clicking here: https://www.allpcb.com/.
+<p>You can use this Gerber file to order high quality PCB for this project. To do that visit the ALLPCB official website by clicking here: https://www.allpcb.com/.</p>
+
+ <div style="display: flex;">
+    <img src="PCB%20Board/bottom-443x360.jpg" style="flex: 1;">
+    <img src="PCB%20Board/top-443x360.jpg" style="flex: 1;">
+</div>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Setting Up Blynk Application
 [Blynk](https://blynk.io/) is an application that runs over ***Android*** and ***IOS*** devices to control any IoT based application using ***Smartphones***. It allows you to create your Graphical user interface for IoT application. Here we will display the IoT Energy Meter Data on Blynk Application.
