@@ -156,3 +156,9 @@ Blynk.run();
 timer.run();
 ```
 Inside the loop fucntion we are running the timer and Blynk
+Conclusion
+In conclusion, the development of a IoT Based Smart Electricity Energy Meter using ESP32 and Blynk 2.0 will bring about a revolution in the monitoring and measurement of electricity consumption. The IoT-based solution eliminates manual meter readings, saving time and money.
+
+With the use of the best current and voltage sensors, accurate readings of voltage, current, power, and total energy consumed can be obtained. The data can be accessed from any location through the Blynk 2.0 dashboard. In case of power outages, the energy meter data is stored in ESP32’s EEPROM, ensuring continuous readings.
+
+This project presents an opportunity to automate electricity consumption monitoring and make it a more streamlined experience.
