@@ -1,4 +1,4 @@
-# IoT based Smart Electricity Meter using ESP32 & Blink
+# IoT based Smart Electricity Meter using ESP32 by Wifi Protocol
 
 In this project, we will learn how to make our own ***IoT Based Smart Electricity Energy Meter using ESP32*** & monitor data on the **Blynk Application**. With the current technology, you need to go to the meter reading room and take down readings. Thus monitoring and keeping track records of your electricity consumption is a tedious task. To automate this, we can use the Internet of Things. The Internet of Things saves time and money by automating remote data collection. Smart Energy Meter has received quite a lot of acclaim across the globe in recent years. So, why not to build our own IoT Based Electricity Energy Meter?
 
@@ -165,6 +165,24 @@ Blynk.run();
 timer.run();
 ```
 Inside the loop fucntion we are running the timer and Blynk
+
+## Result
+The ESP32 Board will try connecting to the Wi-Fi Network using the given SSID & Password. 
+
+<p align="center">
+    <img src="Dataset/setup.jpg" style="width: 900px; height: auto;" />
+</p>
+- Initially when no load is connected it shows that the readings are zero.
+- When load is connected,the change in readings can be observed.Here the voltage reading is displayed in guage settings.
+- Similarly we can get the current readings in the guage settings.Thus the current and voltage readings of bulb are displayed.
+- Now in value display settings we can get the readings of power.
+
+ <div style="display: flex;">
+    <img src="Dataset/voltage.jpg" style="flex:1; width: 300px; height: auto;">
+    <img src="Dataset/current.jpg" style="flex:1; width: 300px; height: auto;">
+    <img src="Dataset/power.jpg" style="flex:1; width: 300px; height: auto;">
+</div>
+
 
 ## Conclusion
 In conclusion, the development of a IoT based Smart Electricity Meter will bring about a ***revolution*** in the ***monitoring and measurement of electricity consumption***. The IoT-based solution eliminates manual meter readings, saving time and money.
