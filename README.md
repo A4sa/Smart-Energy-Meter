@@ -172,10 +172,15 @@ The ESP32 Board will try connecting to the Wi-Fi Network using the given SSID
 <p align="center">
     <img src="Dataset/setup.jpg" style="width: 900px; height: auto;" />
 </p>
+
 - Initially when no load is connected it shows that the readings are zero.
+  
 - When load is connected,the change in readings can be observed.Here the voltage reading is displayed in guage settings.
+  
 - Similarly we can get the current readings in the guage settings.Thus the current and voltage readings of bulb are displayed.
+  
 - Now in value display settings we can get the readings of power.
+  
 
  <div style="display: flex;">
     <img src="Dataset/voltage.jpg" style="flex:1; width: 300px; height: auto;">
